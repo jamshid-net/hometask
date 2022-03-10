@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #8C44AC;
+}
+.website{
+    width: 1500px;
+    height: 800px;
+    margin: 0 auto;
+    padding-top:120px;
+    background-color: #8C44AC;
+}
+
+.main{
+    width: 1304px;
+    height: 502px;
+    
+    margin-left: 101px;
+}
+
+.card{
+    padding: 5px;
+    padding-top: 20px;
+    border-radius: 7px;
+    width: 400px;
+    height: 500px;
+    float: left;
+    background-color: white;
+}
+.card:nth-child(2){
+    margin-left: 50px;
+}
+.card:nth-child(3){
+    margin-left: 50px;
+}
+.card h2{
+    margin-top: 10px;
+    text-align: center;
+    color: #8C44AC;
+}
+.card .stars{
+    margin: 5px auto;
+    
+    width: fit-content;
+}
+.card i{
+    
+    
+    color: #8C44AC;
+}
+
+.card p{
+    text-align: justify;
+
+    margin: 8px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.card .img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid #8C44AC;
+    margin-left: 120px;
+    
+    background-image: url(person.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.card .buttons{
+    width: 360px;
+    height: 52px;
+    margin-left: 20px;
+}
+
+
+.card .buttons button{
+    border-radius: 5px;
+    color: #fff;
+    background-color: #8C44AC;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid #8C44AC;
+    
+
+}
+.card .buttons button:hover{
+    background-color: white;
+    color: #8C44AC;
+}
+.vazifa{
+    position: relative;
+    top: -500px;
+    right: -50px;
+    float: right;
+}
+.vazifa ul {
+    list-style: none;
+
+
+}
+.vazifa ul li{
+    height: 50px;
+    width: 120px;
+
+}
+
+.vazifa ul li a{
+    display: block;
+    height: 50px;
+    width: 120px;
+    background-color: black;
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.1s;
+}
+.vazifa ul li a:hover{
+    color: black;
+    background-color: wheat;
+}
